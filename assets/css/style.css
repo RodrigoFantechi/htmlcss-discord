@@ -13,7 +13,7 @@
 
 .row {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 body {
@@ -43,6 +43,9 @@ a {
     border: none;
     border-radius: 1rem;
     background-color: #FFFFFF;
+}
+.btn:hover{
+    cursor: pointer;
 }
 
 h2 {
@@ -147,7 +150,7 @@ header {
 .banner {
     padding-top: 8rem;
     padding-bottom: 3rem;
-    background-image: url(../assets/img/jumbo.png);
+    background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -165,7 +168,7 @@ header {
 }
 
 .stars {
-    background-image: url(../assets/img/stars.svg);
+    background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -210,21 +213,44 @@ footer {
     padding-top: 1rem;
     padding-bottom: 2.5rem;
     border-bottom: 2px solid white;
-    
+    font-size: 0.75rem;  
+    color: #FFFFFF;
 }
-.footer_top div, i{
-    margin: 0.75rem;
-}
-.footer_bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 0;
-    margin-top: 1.5rem;
+.text_purple{
+    color: #7289DA;
 }
 
 #flag_italy{
     height: 1rem;
+}
+.choose_lenguage{
+    margin: 1rem 0 1rem 0;
+}
+.choose_lenguage *{
+    vertical-align: middle;
+    margin: 0.2rem;
+}
+.social_link i{
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem ;
+    padding-bottom: 3rem ;
+}
+
+.list{
+    padding:2rem;
+    flex-direction: column;
+}
+.list a{
+    display: block;
 }
 
 /* #endregion Footer */

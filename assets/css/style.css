@@ -273,6 +273,9 @@ footer {
 svg{
     margin: -10px;
 }
+.wave-grey{
+    background-color: #F6F6F6;
+}
 
 
 /* #endregion waves */
